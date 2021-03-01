@@ -20,7 +20,7 @@
                 <td>{{$article->slug}}</td>
                 <td>{{$article->body}}</td>
                 <td>
-                    <a href="{{route('admin.articles.show', ['article' => $article->id])}}" class="btn btn-primary"><i class="fas fa-eye fa-sm fa-fw"></i>View</a>
+                    <a href="{{route('admin.articles.show', ['article' => $article->slug])}}" class="btn btn-primary"><i class="fas fa-eye fa-sm fa-fw"></i>View</a>
                     <a href="#" class="btn btn-warning"><i class="fas fa-pen fa-sm fa-fw"></i>Edit</a>
                     <a href="#" class="btn btn-danger"><i class="fas fa-trash fa-sm fa-fw"></i>Delete</a>
                 </td>
